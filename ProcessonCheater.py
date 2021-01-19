@@ -108,7 +108,7 @@ if __name__ == "__main__":
     login_email = input("请输入您的账号:")
     login_password = input("请输入您的密码:")
 
-    print("大号开始初始化...")
+    print("开始初始化...")
     currentUser = User(login_email, login_password)
     # 开始扩容
     print("开始扩容...")
