@@ -10,12 +10,15 @@ processon是一个非常好用的在线绘图网站, 它支持在线绘制流程
 ### 脚本特点
 无需小号, 无需邀请, 只需要输入自己的账号和密码.
 
+### 脚本原理
+自动点赞以扩容
+
 ### 运行环境
 `pip install requests json re`
 
 ### 使用方法
-git clone之后直接在目录下
-`python ProcessonCheater.py`输入账号密码即可. 默认增加50个文件空间, 可以多次运行.
+git clone之后直接在目录下`python ProcessonCheater.py`后输入账号密码即可. 
+或者直接到[release](https://github.com/UnknwoonUser/ProcessonCheater/releases/tag/ProcessonCheater)下载可执行文件
 
 ### 效果
 ```
@@ -37,3 +40,4 @@ git clone之后直接在目录下
 2. 初始的那不到10个的文件空间实在是少得可怜, 但是大家用这个脚本刷个几十个就差不多了, 更别拿到闲鱼淘宝上去赚黑心钱, 没意思.
 3. processon实在是一款很好的产品, 大家可以推荐给周围人使用.
 4. 如果此项目侵权, 请联系我删除此项目
+
