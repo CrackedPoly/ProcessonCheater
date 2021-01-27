@@ -113,8 +113,13 @@ if __name__ == "__main__":
     # 开始扩容
     print("开始扩容...")
     # 扩容的数目
-    times = 100
-    for i in range(times):
-        currentUser.expand()
+    while True:
+        times = input('请输入扩容数目(纯数字)：')
+        if times.isnumeric():
+            for i in range(eval(times)):
+                currentUser.expand()
+            break
+        else:
+            continue
 
 pass
